@@ -10,7 +10,7 @@ const HomePage = () => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: '#f8f8f8' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: 'center / contain no-repeat url(../../images/home-banner.png)', backgroundSize: 'auto'  }}>
       <button 
         onClick={handleButtonClick} 
         style={{
